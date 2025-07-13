@@ -1,21 +1,104 @@
-E-Commerce Website : QuickBuy        
+<h1>QuickBuy: Shop with the Convenience of Amazon, Speed of Blinkit</h1>
 
-My capstone project, "QuickBuy" is a hybrid e-commerce platform inspired by the speed of Blinkit and the comprehensive selection of Amazon. It combines instant delivery with traditional e-commerce, offering users a diverse shopping experience. QuickBuy addresses the need for both immediate and planned purchases within a single platform, catering to users who value both speed and variety.
+<p>"QuickBuy" is a hybrid e-commerce platform that combines the instant delivery model of Blinkit with the comprehensive product selection of Amazon. It addresses the need for both immediate and planned purchases within a single platform, offering users a diverse and streamlined shopping experience.</p>
 
-Problem Statement  : The problem statement focused on bridging the gap between instant delivery services and traditional online marketplaces. Users often need items quickly but also desire a wide selection and the ability to plan purchases in advance. QuickBuy aims to solve this by offering both quick and standard delivery options, streamlining the shopping process and providing a single platform for all shopping needs.
+<h2>Table of Contents</h2>
 
-My approach involved several key steps -  I designed the QuickBuy logo and website layout using Canvas. The front-end was developed using React, with Redux for state management to handle product data, cart items, wishlist items, user authentication, and admin/seller dashboard data. Tailwind CSS provided styling for a responsive design. 
+<ul>
+    <li><a href="#assignment-overview">Assignment Overview</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#technologies-used">Technologies Used</a></li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#running-the-application">Running the Application</a></li>
+    <li><a href="#live-demo">Live Demo</a></li>
+    <li><a href="#author">Author</a></li>
+</ul>
 
-Key components of QuickBuy include : 
-E-commerce Dashboard: The landing page features a header with the QuickBuy logo, search bar, cart and wishlist icons, and login/signup options. A banner section introduces the platform. Products are categorized by "Quick Delivery" and "Standard Delivery," and displayed accordingly. The footer contains quick links, company information and contact details.
-Search Functionality: A robust search bar allows users to find products by name, displaying matching results.
-Login/Signup: Secure login and signup forms are provided for users.
-Product Card: Displays product image, name, price, delivery type (quick or standard), "Add to Cart" button, "Add to Wishlist" icon, and review stars.
-Product Details Page: Provides comprehensive product information, including images, price, description, delivery time, key features, payment options, offers, and an "Add to Cart" button.
-Cart: Displays added products, allows users to adjust quantities or remove items, calculates the total price, and offers checkout functionality.
-Wishlist: Stores products added by the user for later purchase.
-User Dashboard: Provides order history, profile management, and other user-specific features.
-Seller Dashboard: Allows sellers to manage their products, track orders, and view sales statistics.
-Admin Dashboard: Provides administrative controls for managing users, products, categories, and overall platform settings.
-Payment Gateway Integration: Integration with a payment gateway (Stripe) for secure online transactions.
-My conclusion is that QuickBuy successfully combines the speed of instant delivery with the variety of traditional e-commerce. The use of React, Redux, Tailwind CSS, and a well-structured architecture has allowed me to create a functional and scalable application. The key features, including differentiated delivery options, user/seller/admin dashboards, and payment gateway integration, address the core needs of a modern e-commerce platform. 
+---
+
+<h2>Assignment Overview</h2>
+
+<p>This project aims to bridge the gap between instant delivery services and traditional online marketplaces. QuickBuy offers both quick and standard delivery options, streamlining the shopping process and providing a single platform for all shopping needs.</p>
+
+---
+
+<h2>Features</h2>
+
+<ul>
+    <li><strong>E-commerce Dashboard:</strong> The landing page features a header with the QuickBuy logo, search bar, cart and wishlist icons, and login/signup options. A banner section introduces the platform. Products are categorized by "Quick Delivery" and "Standard Delivery" and displayed accordingly. The footer contains quick links, company information, and contact details.</li>
+    <li><strong>Search Functionality:</strong> A robust search bar allows users to find products by name, displaying matching results.</li>
+    <li><strong>Login/Signup:</strong> Secure login and signup forms are provided for users.</li>
+    <li><strong>Product Card:</strong> Displays product image, name, price, delivery type (quick or standard), "Add to Cart" button, "Add to Wishlist" icon, and review stars.</li>
+    <li><strong>Product Details Page:</strong> Provides comprehensive product information, including images, price, description, delivery time, key features, payment options, offers, and an "Add to Cart" button.</li>
+    <li><strong>Cart:</strong> Displays added products, allows users to adjust quantities or remove items, calculates the total price, and offers checkout functionality.</li>
+    <li><strong>Wishlist:</strong> Stores products added by the user for later purchase.</li>
+    <li><strong>User Dashboard:</strong> Provides order history, profile management, and other user-specific features.</li>
+    <li><strong>Seller Dashboard:</strong> Allows sellers to manage their products, track orders, and view sales statistics.</li>
+    <li><strong>Admin Dashboard:</strong> Provides administrative controls for managing users, products, categories, and overall platform settings.</li>
+    <li><strong>Payment Gateway Integration:</strong> Integration with Stripe for secure online transactions.</li>
+</ul>
+
+---
+
+<h2>Technologies Used</h2>
+
+<ul>
+    <li>React</li>
+    <li>React Router</li>
+    <li>Tailwind CSS</li>
+    <li>Axios</li>
+    <li>React Hook Form</li>
+    <li>React Hot Toast</li>
+    <li>React Icons</li>
+    <li>React Infinite Scroll Component</li>
+    <li>React Redux</li>
+    <li>React Slick</li>
+    <li>React Type Animation</li>
+    <li>Slick Carousel</li>
+    <li>SweetAlert2</li>
+    <li>Stripe</li>
+</ul>
+
+---
+
+<h2>Prerequisites</h2>
+
+<ul>
+    <li>Node.js and npm installed</li>
+</ul>
+
+---
+
+<h2>Installation</h2>
+
+<ol>
+    <li><strong>Clone the repository:</strong>
+    <pre><code>git clone https://github.com/prakash-prasad22/QuickBuy</code></pre></li>
+    <li><strong>Navigate to the project directory:</strong>
+    <pre><code>cd QuickBuy</code></pre></li>
+    <li><strong>Install dependencies:</strong>
+    <pre><code>npm install</code></pre></li>
+</ol>
+
+---
+
+<h2>Running the Application</h2>
+
+<ol>
+    <li><strong>Start the development server:</strong>
+    <pre><code>npm run dev</code></pre></li>
+    <li><strong>Open your browser and navigate to:</strong> <code>http://localhost:5173</code> (or the port specified by your development server)</li>
+</ol>
+
+---
+
+<h2>Live Demo</h2>
+
+<p><a href="https://quickbuy-frontend-poduction.onrender.com">https://quickbuy-frontend-poduction.onrender.com</a></p>
+
+---
+
+<h2>Author</h2>
+
+<p>Prakash Prasad Rai</p>
