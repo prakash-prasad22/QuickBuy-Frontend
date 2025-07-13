@@ -48,15 +48,11 @@
     <li>React Router</li>
     <li>Tailwind CSS</li>
     <li>Axios</li>
-    <li>React Hook Form</li>
     <li>React Hot Toast</li>
     <li>React Icons</li>
-    <li>React Infinite Scroll Component</li>
     <li>React Redux</li>
     <li>React Slick</li>
-    <li>React Type Animation</li>
     <li>Slick Carousel</li>
-    <li>SweetAlert2</li>
     <li>Stripe</li>
 </ul>
 
@@ -74,9 +70,7 @@
 
 <ol>
     <li><strong>Clone the repository:</strong>
-    <pre><code>git clone https://github.com/prakash-prasad22/QuickBuy</code></pre></li>
-    <li><strong>Navigate to the project directory:</strong>
-    <pre><code>cd QuickBuy</code></pre></li>
+    <pre><code>git clone  https://github.com/prakash-prasad22/QuickBuy-Frontend</code></pre></li>
     <li><strong>Install dependencies:</strong>
     <pre><code>npm install</code></pre></li>
 </ol>
